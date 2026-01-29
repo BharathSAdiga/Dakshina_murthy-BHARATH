@@ -1,0 +1,10 @@
+services:
+  # Unified Service (Frontend + Backend)
+  - type: web
+    name: VIVEKA_VARA
+    runtime: python
+    buildCommand: chmod +x build.sh && ./build.sh
+    startCommand: python backend/emotion_bridge.py
+    envVars:
+      - key: PORT
+        value: 10000
