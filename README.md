@@ -28,15 +28,6 @@ A custom 2D rendering engine built on top of React:
 *   **Zero Sample Files:** All ambient audio is synthesized 100% procedurally using the **Web Audio API**.
 *   **Real-time Synthesis:** Pink noise for wind/rain, oscillators for birds/chimes, and low-frequency drones for tension are mixed live based on the current state.
 
-### 🗣️ Gemini Live "Spirit Guide"
-*   **Low-Latency Voice Interaction:** Integrated with `gemini-2.5-flash-native-audio-preview`.
-*   **Active Environment Control:** The AI guide ("Viveka") listens to the conversation. If she detects a mood shift, she performs a `functionCall` to programmatically update the React state and change the weather.
-
-### 🎬 Creative Studio (Veo)
-*   **Video Generation:** Integration with **Google Veo** to generate background video assets based on the current scene context.
-*   **Image Remixing:** Use Gemini Image models to remix or generate new environmental assets.
-
----
 
 ## 🛠️ Tech Stack
 
