@@ -125,5 +125,3 @@ src/
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
-
-*Built with ❤️ by a Creative Technologist using React & Gemini.*
